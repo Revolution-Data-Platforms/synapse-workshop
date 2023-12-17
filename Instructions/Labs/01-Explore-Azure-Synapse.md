@@ -53,6 +53,10 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
         - **Base URL**: `https://raw.githubusercontent.com/Revolution-Data-Platforms/synapse-workshop/master/Allfiles/Labs/01/adventureworks/products.csv`
         - **Server Certificate Validation**: Enable
         - **Authentication type**: Anonymous
+
+**Note**: *The integration runtime that is using managed VNET needs to enable the interactive authoring fature to test and create new connections.*
+
+
 4. After creating the connection, on the **Source data store** page, ensure the following settings are selected, and then select **Next >**:
     - **Relative URL**: *Leave blank*
     - **Request method**: GET
