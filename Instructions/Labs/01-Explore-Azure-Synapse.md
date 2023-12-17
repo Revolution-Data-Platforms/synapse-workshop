@@ -56,6 +56,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
 
 **Note**: *The integration runtime that is using managed VNET needs to enable the interactive authoring fature to test and create new connections.*
 
+![Integration runtime interactive authoring](./images/ir-with-managed-VNET.png)
 
 4. After creating the connection, on the **Source data store** page, ensure the following settings are selected, and then select **Next >**:
     - **Relative URL**: *Leave blank*
